@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>DoubleUp Partners</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="theme-color" content="#fafafa">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="menu columns" data-element="menu">
+	<div class="logo-wrapper">
+		<img class="logo" src="img/logo.png" alt="DoubleUp Partners">
+	</div>
+	<div class="menu-buttons">
+		<a class="link">The Why</a>
+		<a class="link">Brands</a>
+		<button class="menu-button">Start Earning</button>
+		<button class="menu-button">Log In</button>
+	</div>
+</nav>
+
+<main class="content-wrapper">
+    <div class="calculator columns">
+        <div class="column header">
+            <h1>I WANT TO EARN MONTHLY</h1>
+        </div>
+        <div class="column">
+            <div>How much would you like to earn?</div>
+			<div class="earnings-input">
+				$ <input type="number" class="input-amount" data-input="amount" placeholder="0.00">
+			</div>
+        </div>
+        <div class="column">
+            How many players can you deliver on a monthly basis?
+        </div>
+        <div class="column players-slider">
+			<input class="slider" type="range" min="1" max="100" value="10" data-slider="players"> <br>
+			<span class="players-amount" data-amount="players">10 players</span>
+		</div>
+        <div class="column">
+			<div>How much NGR needed for earnings</div>
+			<div class="revenue" data-amount="revenue">$ 0.00</div>
+		</div>
+		<div class="button">Become a partner</div>
+    </div>
+</main>
+
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
